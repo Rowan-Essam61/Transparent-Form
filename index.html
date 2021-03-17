@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <div id="container">
+      <div class="card">
+        <div class="box" id="signup">
+          <div class="top">
+            <button onclick="displaysignin();" id="span1">Sign IN</button>
+            <button onclick="displaysignup();" class="active" id="span2">Sign Up</button>
+          </div>
+          <div class="middle">
+            <label class="user"><h4>Username</h4>
+            <input type="text" name="" placeholder="Username" id="username"></label>
+             
+            <label> <h4>Email</h4>
+            <input type="text" name="" placeholder="Username" id="username"></label>
+            <label><h4>Password</h4>
+            <input type="text" name="" placeholder="Username" id="username"></label>
+          </div>
+          <div class="bottom">
+            <input type="checkbox" />
+            <span>I agree to terms and conditions</span>
+            <button >Register</button>
+          </div>
+        </div>
+        <div class="box" id="signinn" style="display: none;">
+          <div class="top">
+            <button onclick="displaysignin(); " class="active" id="span1" >Sign IN</button>
+            <button onclick="displaysignup();" id="span2">Sign Up</button>
+          </div>
+          <div class="middle">
+            <label><h4>Username</h4>
+            <input type="text" name="" placeholder="Username" id="username"></label>
+            <label><h4>Password</h4>
+            <input type="text" name="" placeholder="Username" id="username"></label>
+          </div>
+          <div class="bottom">
+            <button class="btnFlip" style="text-transform: uppercase;">Log in</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js">
+
+    </script>
+  </body>
+</html>

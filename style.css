@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('back2.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.box{
+    width: 330px;
+    height: 500px;
+    background:#a8998e00 ;
+    margin: 30px auto;
+    /* 0a1516c9 */
+    box-shadow: 0 25px 30px #f0b47f;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.box .top button{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    outline: 0;
+    border: 0;
+    margin-bottom: 50px;
+    background-color:#a8998e00 ;
+    margin-right: 50px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.box .top button:hover{
+    color: #ff8317;
+}
+
+.box .top  .active{
+    color: #f0a666;
+    border-bottom: 2px solid #ff8317;
+}
+
+.box .middle p{
+color: #fff;
+margin-top: 75px;
+/* border-bottom: 2px solid #fff; */
+}
+.box .middle h4{
+    color: #fff;
+    }
+.box .middle #username{
+    /* margin-bottom: 50px; */
+    margin-top: -50px;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    outline: 0;
+    font-size: 1.3rem;
+    color: #fff;
+    /* padding: 7px 0; */
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+.box .middle #username:last-of-type{
+    margin-bottom: 0px;
+}
+.box .middle #username:focus{
+    padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #ff8317, #f0a666);
+  border-image-slice: 1;
+}
+.box .middle label:focus-within h4{
+    color: #ff8317;
+}
+.box .middle #username::placeholder{
+    color: transparent;
+}
+.box .bottom{
+    margin-top: 50px;
+}
+
+.box .bottom button{
+color: #fff;
+}
+
+.box .bottom button{
+    display: block;
+    padding: 8px 15px;
+    width: 100px;
+    text-align: center;
+    margin: 40px auto;
+    text-transform: uppercase;
+    background-color: #ff8317;
+    border-radius: 12px;
+    outline: 0;
+    border: 0;
+}
+
+.box .bottom button:hover{
+    background-color: #f0a666;
+    color: black;
+}
+#container .hover_effect .card {
+    transform: rotate(180deg);
+  
+  }
